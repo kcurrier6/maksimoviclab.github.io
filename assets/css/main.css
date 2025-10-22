@@ -2335,6 +2335,8 @@ input, select, textarea {
 			}
 
 		.image.left {
+			max-width: 60%;
+			width: 20em;
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
@@ -2564,6 +2566,12 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.25;
 		}
+
+/* Subsection */
+	.subsection {
+		text-align: center;
+		margin: 2em 2em;
+	}
 
 /* Tiles */
 
